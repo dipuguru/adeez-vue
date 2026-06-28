@@ -14,28 +14,27 @@
       <!-- Menu -->
       <nav :class="['nav-menu', { active: mobileMenu }]">
 
-        <a href="#">Home</a>
+  <router-link to="/">Home</router-link>
 
-        <a href="#">Turnkey</a>
+  <router-link to="/turnkey">Turnkey</router-link>
 
-        <a href="#">Plot Collaboration</a>
+  <router-link to="/plot-collaboration">Plot Collaboration</router-link>
 
-        <a href="#">Services</a>
+  <router-link to="/services">Services</router-link>
 
-        <a href="#">Our Projects</a>
+  <router-link to="/our-projects">Our Projects</router-link>
 
-        <a href="#">Cost Calculator</a>
+  <router-link to="/cost-calculator">Cost Calculator</router-link>
 
-        <a href="#">Referral</a>
+  <router-link to="/referral">Referral</router-link>
 
-        <a href="#">Contact Us</a>
+  <router-link to="/contact">Contact Us</router-link>
 
-        <button class="cta-btn">
-          Free Consultation
-        </button>
+  <button class="cta-btn">
+    Free Consultation
+  </button>
 
-      </nav>
-
+</nav>
       <div
         class="menu-toggle"
         @click="mobileMenu = !mobileMenu"

@@ -1,16 +1,9 @@
 <template>
-  <HeaderSection />
-  <HeroSection />
+  <router-view />
 </template>
 
 <script>
-import HeaderSection from './components/HeaderSection.vue'
-import HeroSection from './components/HeroSection.vue'
-
 export default {
-  components: {
-    HeaderSection,
-    HeroSection
-  }
+  name: "App"
 }
 </script>
